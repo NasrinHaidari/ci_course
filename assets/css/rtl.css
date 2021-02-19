@@ -1,0 +1,28 @@
+body{
+	direction: rtl;
+}
+
+@media(min-width:768px){
+	#page-wrapper{
+		margin: 0px 260px 0px 0px;
+	}
+	.navbar-header {
+		float: right;
+	}
+}
+
+td,th{
+	text-align:right;
+}
+
+.nav > li > a > i {
+	margin-left: 10px;
+}
+
+.navbar .language_bar{
+	float: left !important;
+}
+
+.navbar .language_bar ul li{	
+	margin-left: 10px !important;
+}	
